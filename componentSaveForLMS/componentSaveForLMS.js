@@ -80,6 +80,7 @@ export default class ComponentSaveForLMS extends LightningElement {
                         variant: 'success'
                     })
                 );
+ this.isEdit = false
                 this.publishMessage('CANCEL')
             })
             .catch(error => {
